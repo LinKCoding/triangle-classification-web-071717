@@ -1,5 +1,5 @@
 class Triangle
-  attr_accessor :kind, :s1, :s2, :s3 #:equalateral, :isosceles, :scalene
+  attr_accessor :kind, :s1, :s2, :s3
 
   def initialize(side1, side2, side3)
     @s1 = side1
@@ -25,5 +25,5 @@ class Triangle
 end
 
 class TriangleError < StandardError
-  puts "Not an actual triangle"
+  "Not an actual triangle"
 end
